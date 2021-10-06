@@ -1,0 +1,33 @@
+# git-tutorials-devops
+# welcome to my tutorialas
+git --version
+mkdir /home/chandu/git-lab
+cd /home/chandu/git-lab
+git init
+touch git.py
+gedit git.py
+git add git.py
+git add . 
+git status
+git commit -m " my first commit"
+git config --global user.name "yourUserID"
+git config --global user.email "yourEmailIdName"
+git config  user.name "yourUserID"
+git config  user.email "yourEmailIdName"
+git branch
+git branch feature ( this command will create new branch)
+git checkout feature( this command will switched into feature branch)
+gedit git.py( save some changes again)
+git commit -m " this git commit"
+git checkout master( this command will switched into default branch)
+git merge feature
+git branch -d feature ( to delete the branch we use this command)
+git checkout -b new (this will create a branch that is new and same time will switched on to new branch)
+git add . ( . means to add in present path)
+git remote add "https://github.com/chandu205/chandu-repo.git"
+
+cd ..
+mkdir /home/chandu/git-tutorials
+cd /home/chandu/git-tutorials
+git clone  "https://github.com/chandu205/chandu-repo.git"
+git pull oringin main
